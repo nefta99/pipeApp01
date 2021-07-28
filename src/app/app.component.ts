@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  nombre : string ="IsRael torres Ge"
+  nombre : string ="IsRael torres her"
   valor : number = 1000;
   obj = {
     nombre: 'Israel'
