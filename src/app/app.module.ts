@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 //Modulo personalizado
 import { AppRouterModule } from './app-router.module';
 import { SharedModule } from './shared/shared.module';
-
+import { VentasModule } from './ventas/ventas.module';
 //componentes
 import { AppComponent } from './app.component';
+
 
 
 
@@ -18,7 +19,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,  
     AppRouterModule,
-    SharedModule
+    SharedModule,
+    VentasModule
   
   ],
   providers: [],
