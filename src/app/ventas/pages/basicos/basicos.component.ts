@@ -11,7 +11,7 @@ export class BasicosComponent  {
   nombreLower : string  ='israel';
   nombreUpper: string  ='ISRAEL';
   nombreCompleto: string ='isRael neFTALI';
-  
-  
+
+  fecha : Date = new Date();
 
 }
