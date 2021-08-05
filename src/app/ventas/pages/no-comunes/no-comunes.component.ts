@@ -37,6 +37,11 @@ export class NoComunesComponent {
 
   }
 
-  
+  //KeyValue Pipe
+  persona  ={
+    nombre: 'Fernando',
+    edad: 35,
+    direccion : 'Ottawa, Canada'
+  } 
 
 }
