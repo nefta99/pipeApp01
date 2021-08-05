@@ -19,7 +19,7 @@ const routes:Routes = [
   }
   ,
   {
-    path: 'no-comunes',
+    path: 'noComunes',
     component: NoComunesComponent
   }
   ,
