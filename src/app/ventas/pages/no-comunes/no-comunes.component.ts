@@ -44,4 +44,19 @@ export class NoComunesComponent {
     direccion : 'Ottawa, Canada'
   } 
 
+  heroes = [
+    {
+      nombre : 'super man',
+      vuela : true
+    },
+    {
+      nombre : 'robin',
+      vuela : false
+    },
+    {
+      nombre : 'aqua man',
+      vuela : false
+    }
+  ]
+
 }
