@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdenarComponent implements OnInit {
 
+  nosotros: string ='nosotros';
   constructor() { }
 
   ngOnInit(): void {
