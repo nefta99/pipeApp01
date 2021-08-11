@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import { Color, Heroe } from '../../interfaces/ventas.interfaces';
 
 @Component({
   selector: 'app-ordenar',
@@ -6,18 +7,47 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class OrdenarComponent implements OnInit {
+export class OrdenarComponent  {
 
   //nosotros: string ='nosotros';
   esMayuscula : boolean=true;
-  
-  constructor() { }
+  heroes : Heroe[]=[
+    {
+      nombre: 'Super man',
+      vuela: true,
+      color: Color.azul
+    },
+    {
+      nombre: 'Batman',
+      vuela: false,
+      color: Color.negro
+    }
+    ,
+    {
+      nombre: 'Robin',
+      vuela: false,
+      color: Color.verde
+    }
+    ,
+    {
+      nombre: 'Daredevil',
+      vuela: false,
+      color: Color.rojo
+    }
+    ,
+    {
+      nombre: 'Linterna verde',
+      vuela: false,
+      color: Color.verde
+    }
 
-  ngOnInit(): void {
-  }
+  ];
+ 
 
 
   cambio(){
     this.esMayuscula = !this.esMayuscula;
   }
+
+
 }
