@@ -30,7 +30,7 @@
         <button 
             pButton
             icon="pi pi-sort"
-            label="valores"
+            label="vuela"
             class="p-mr-2 p-button-success">
         </button>
 
@@ -46,7 +46,7 @@
 
 <div class="p-grid">
     <div class="p-col">
-        <p-table [value]="heroes">
+        <p-table [value]="heroes | ordenar">
             <ng-template pTemplate="header">
                 <tr>
                     <th>Nombre</th>

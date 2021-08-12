@@ -13,6 +13,7 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 //pipes
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
 import { VuelaPipe } from './pipes/vuela.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
 
 
 
@@ -20,12 +21,17 @@ import { VuelaPipe } from './pipes/vuela.pipe';
 
 @NgModule({
   declarations: [
+    //Componentes
     NumerosComponent,
     NoComunesComponent,
     BasicosComponent,
     OrdenarComponent,
+
+    //Pipes
     MayusculasPipe,
+    OrdenarPipe,
     VuelaPipe
+    
   ],
   imports: [
     CommonModule,
