@@ -10,7 +10,9 @@ import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
 import { NumerosComponent } from './pages/numeros/numeros.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 
+//pipes
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
 
 
 
@@ -22,7 +24,8 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
     NoComunesComponent,
     BasicosComponent,
     OrdenarComponent,
-    MayusculasPipe
+    MayusculasPipe,
+    VuelaPipe
   ],
   imports: [
     CommonModule,

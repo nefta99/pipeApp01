@@ -58,7 +58,7 @@
             <ng-template pTemplate="body" let-x >
                 <tr >
                     <td>{{x.nombre}}</td>
-                    <td>{{x.vuela}}</td>
+                    <td>{{x.vuela | vuela | titlecase}}</td>
                     <td>{{x.color}}</td>
                     
                 </tr>
