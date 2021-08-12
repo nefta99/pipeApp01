@@ -11,6 +11,7 @@ export class OrdenarComponent  {
 
   //nosotros: string ='nosotros';
   esMayuscula : boolean=true;
+  ordernarPor : string ='';
   heroes : Heroe[]=[
     {
       nombre: 'Super man',
@@ -49,5 +50,9 @@ export class OrdenarComponent  {
     this.esMayuscula = !this.esMayuscula;
   }
 
+  cambiarOrden(valor : string ){
+    this.ordernarPor = valor;
+    console.log(valor);
+  }
 
 }
